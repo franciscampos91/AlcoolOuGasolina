@@ -1,0 +1,74 @@
+*{
+	margin: 7px;
+	font-size: 1.2em;
+	color: #f8efdf;
+	font-family: "Tahoma";
+}
+
+body{
+	background: #122c0f;
+}
+
+label, input, button{
+	width: 100%;
+}
+
+button{
+	background: #e8d347;
+	color: #122c0f;
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	border-radius: 6px;
+	font-family: "Segoe UI Black";
+	font-weight: bolder;
+}
+
+input{
+	color: #122c0f;
+	height: 70px;
+}
+
+button:hover{
+	color: #e8d347;
+	background: #12605e;
+}
+
+
+.container{
+	width: 600px;
+	margin: auto;
+}
+
+.cabecalho{
+	border-radius: 4px;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: #000 2px 3px 2px;
+
+}
+
+#div-alcool{
+	background: #e2e2e2;
+	color: #656d07;
+	width: 279px;
+	font-family: "Segoe UI Black";
+	float: left;
+	padding: 7px;
+	margin: 0px;
+
+}
+
+#div-gasolina{
+	background: #656d07;
+	color: #e2e2e2;
+	width: 279px;
+	font-family: "Segoe UI Black";
+	float: left;
+	padding: 7px;
+	margin: 0px;
+}
+
+.clear{
+	clear: both;
+}
